@@ -18,17 +18,17 @@ body {
 #header {
     width: 100%;
     height: 100vh;
-    background-image: url(file/page.jpg);
+    background-image: url(file/page\ copy.jpg);
     background-size: cover;
     background-repeat: no-repeat;
 }
 h1::first-letter {
-    color: #C7253E;
+    color: #4CC9FE;
     font-size: 40px;
     font-family: 'Times New Roman', Times, serif;
 }
 h1 > span {
-    color: #C7253E;
+    color: #4CC9FE;
 }
 
 .container {
@@ -89,7 +89,7 @@ nav ul li a {
 nav ul li a:after {
     content: "";
     height: 2px;
-    background:  #C7253E;
+    background:  #4CC9FE;
     position: absolute;
     left: 0;
     bottom: -6px;
@@ -100,7 +100,7 @@ nav ul li a:hover::after {
    width: 90%;
 }
 a:hover {
-    color: #C7253E;
+    color: #4CC9FE;
 }
  
 .header-text {
@@ -116,7 +116,7 @@ a:hover {
 }
 .gradient-text {
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    background: linear-gradient(to left, #821131, #C7253E);
+    background: linear-gradient(to left, #37AFE1, #4CC9FE);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
@@ -187,7 +187,7 @@ p em {
     content: '';
     width: 0;
     height: 3px;
-    background:  #ff004f;
+    background:  #4CC9FE;
     position: absolute;
     left: 0;
     bottom: -8px;
@@ -209,7 +209,7 @@ p em {
 }
 
 .tab-contents ul li span {
-    color:  #ff004f;
+    color:  #37AFE1;
     font-size: 19px;
 }
 
@@ -264,7 +264,7 @@ p em {
     display: inline-block;
 }
 .services-list div:hover {
-    background: #ff004f;
+    background: #37AFE1;
     transform: translateY(-14px);
 }
 
@@ -293,7 +293,7 @@ p em {
 .layer {
     width: 100%;
     height: 0;
-    background: linear-gradient(rgba(0,0,0,0.6), #ff004f);
+    background: linear-gradient(rgba(0,0,0,0.6), #37AFE1);
     border-radius: none;
     position: absolute;
     left: 0;
@@ -367,7 +367,7 @@ p em {
     border-radius: 6px;
     text-decoration: none;
     color: #fff;
-    background-color: #ff004f;
+    background-color: #37AFE1;
 }
 
 .btn4:hover {
@@ -387,9 +387,10 @@ p em {
     margin-top: 40px;
 }
 .container-left p i {
-    color: #ff004f;
-    margin-right: 15px;
+    color: #37AFE1;
+    margin-right: 8px;
     font-size: 25px;
+    margin-top: -5px;
 }
 .social-icons {
     margin-top: 30px;
@@ -403,14 +404,21 @@ p em {
     transition: transform 0.5s;
 }
 .social-icons a:hover {
-   color: #ff004f;
+   color: #37AFE1;
    transform: translateY(-5px);
 }
 .btn.btn2 {
     margin-top: 30px;
     display: inline-block;
-    background-color: black;
+    background-color: #37AFE1;
+    border: none;
 }
+
+.btn.btn.btn2:hover {
+  color: #080808;
+  font-weight: 600;
+}
+
 .container-right form {
     width: 100%;
 }
@@ -428,7 +436,7 @@ form input, form textarea {
 
 
 form input:focus, form textarea:focus{
-    border: 4px solid #ff004f;
+    border: 4px solid #37AFE1;
 } 
 
 form .btn2 {
@@ -450,7 +458,7 @@ select {
 }
 
 button:hover {
-   color: #ff004f;
+   color: #080808;
 }
 .copyright {
    width: 100%;
@@ -483,11 +491,6 @@ nav .fa-solid.fa-xmark, .fa-solid.fa-bars {
 /*-------------Media Query--------------*/
 
 @media screen and (max-width: 900px) {
-    #header {
-        background-image: url(d.jpg);
-        background-size: cover;
-    }
-
     nav ul li {
         display: inline-block;
         list-style: none;
@@ -552,10 +555,6 @@ nav .fa-solid.fa-xmark, .fa-solid.fa-bars {
 
 /*--for screen 600px and below-----*/
 @media screen and (max-width: 600px) {
-    #header {
-        background-image: url(d.jpg);
-        background-size: cover;
-    }
     .header-text {
         margin-top: 20%;
         font-size: 16px;
@@ -577,16 +576,16 @@ nav .fa-solid.fa-xmark, .fa-solid.fa-bars {
        padding: 0;
        margin: 0;
        list-style: none;
-       background: rgba(255, 0, 79, 0.7);
+       background: #4CC9FE;
        position: fixed;
        top: 0;
        right: -600px;
        width: 100%;
-       height: 55vh;
-       padding-top: 15px;
+       height: 100%;
+       padding-top: 5px;
        z-index: 1;
        transition: right 0.3s;
-       backdrop-filter: blur(6px);
+       overflow: hidden;
     }
 
     nav ul li {
@@ -600,7 +599,6 @@ nav .fa-solid.fa-xmark, .fa-solid.fa-bars {
         font-size: 20px;
         font-family: Arial;
         font-weight: 600;
-        
     }
 
     nav ul .fa-solid.fa-xmark {
@@ -651,16 +649,16 @@ nav .fa-solid.fa-xmark, .fa-solid.fa-bars {
         flex-basis: 100%;
     }
     .copyright {
-        font-size: 14px;
+        font-size: 12px;
     }
     .btn.btn2 {
-        background-color: #ff004f;
+        background-color: #37AFE1;
     }
     .btn.btn2:hover {
         color: black;
     }
     .btn {
-        background-color: #ff004f;
+        background-color: #37AFE1;
     }
     .btn:hover {
         color: #ababab;

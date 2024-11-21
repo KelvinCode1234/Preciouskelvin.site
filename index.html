@@ -1,266 +1,378 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <meta http-equiv="X-UA-CompatiPrecious_Kelvin_Portfolioble" content="IE-edge">
-        <title>Kelvinprecious.site</title>
-        <link rel="stylesheet" href="file.css">
-        <script src="https://kit.fontawesome.com/69b7050fd6.js" crossorigin="anonymous"></script>
-        <link rel="icon" type="image/x-icon" href="file/jy.png">
-        <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
-    </head>
-    <body>
-        <div class="overlay"></div>
-        <div id="header">
-          <div class="container">
-            <nav>
-                <h1 class="logo">Kelvin<span>.</span></h1>
-                <ul id="sidemenu">
-                <li><a href="#header">Home</a></li>
-                <li><a href="#about">About</a></li>
-                <li><a href="#services">Services</a></li>
-                <li><a href="#portfolio">Portfolio</a></li>
-                <li><a href="#contact">Contact</a></li>
-                <i class="fa-solid fa-xmark" onclick="closemenu()"></i>  
-                </ul>
-                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      http-equiv="X-UA-CompatiPrecious_Kelvin_Portfolioble"
+      content="IE-edge"
+    />
+    <title>Kelvinprecious.site</title>
+    <link rel="stylesheet" href="file.css" />
+    <script
+      src="https://kit.fontawesome.com/69b7050fd6.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="icon" type="image/x-icon" href="file/jy.png" />
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+  </head>
 
-            </nav>
-            <div class="header-text">
-                <p class="title">Hello,</p>
-                <h2>I'm <span class="gradient-text">Kelvin</span><br>Software Developer</h2>
-               </div>
-               </div>
+  <body>
+    <div class="overlay"></div>
+    <div id="header">
+      <div class="container">
+        <nav>
+          <h1 class="logo">Kelvin<span>.</span></h1>
+          <ul id="sidemenu">
+            <li><a href="#header">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+          </ul>
+          <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+        </nav>
+        <div class="header-text">
+          <p class="title">Hello,</p>
+          <h2>
+            I'm <span class="gradient-text">Kelvin</span><br />Front-End Developer
         </div>
-        <!--- -----------about-------------- --->
-        <div id="about">
-            <div id="container">
-                <div class="row">
-                    <div class="about-col-1">
-                        <img src="file/m.png" loading="eager">
-                    </div>
-                    <div class="about-col-2">
-                    <h2 class="sub-title">About Me</h2>
-                    <p>I'm <strong>Precious Kelvin</strong> a Software Developer, 20 years, and i'm specialize in creating user-friendly, visually appealing web interfaces using HTML, CSS, JavaScript, and Frameworks like JQuery, React, Php, SASS, Bootstrap and Node.js. I focus on building Responsively, high-performance websites that prioritize usability and aesthetics. Passionate about staying current with industry trends, I aim to bridge the gap between design and technology, ensuring every project looks great and functions flawlessly.</p>
-                    <div class="tab-titles">
-                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
-                        <p class="tab-links"  onclick="opentab('education')">Education</p>
-                        <p class="tab-links"  onclick="opentab('experience')">Experience</p>
-                    </div>
-                    <div class="tab-contents active-tab" id="skills">
-                        <ul>
-                            <li><span>Proficient in HTML5, CSS3, JS, JQuery, and React </span><br>I build responsive and interactive web pages.</li>
-                            <li><span>Skilled in React and Node.js</span><br> I create high-performance web applications</li>
-                            <li><span>Expert in Responsive Design</span><br>I ensure seamless user experiences across all devices.
-                            </li>
-                        </ul>
-                    </div>
-                    <div class="tab-contents" id="education">
-                        <ul>
-                            <li><span>Currently</span><br>I am holding certification as a Responsive Web Developer, and also JavaScript Algorithms and Data Structures (Beta) having successfully completed in designing and developing web interfaces & interactions that adapt seamlessly across various devices and screen sizes.
-                            </li>
-                            <li><span>May, 2024</span><br> I engaged in learning through FreeCodeCamp for several months.</li>
-                            <li><span>April, 2024</span><br> I dedicated few weeks to learning through Mimo Code.
-                            </li>
-                        </ul>
-                    </div>
-                    <div class="tab-contents" id="experience">
-                        <ul>
-                            <li><span>Experience</span><br>As a Software Developer, I have hands-on experience in creating and maintaining dynamic and responsive websites.</li>
-                            <li><span>Web Development</span><br>I have translated design mockups into functional web pages using HTML, CSS, and JavaScript, and worked extensively with frameworks like React, Bootstrap, JQuery and Node.js to build interactive applications.</li>
-                            <li><span>Projects</span><br>My projects include developing a React Web-Apps, LiveCode Editor, PixSearch Web, Fashion-Designer Website, Quiz Web-App, Tic-Tac-Toe Game, click the <em>"See More"</em> Button to view more of my new project. Each of these projects has been optimized for cross-browser compatibility and performance, ensuring a seamless user experience across different devices and screen sizes.</li>
-                            <li><span>Skills and Best Practices</span><br>This experience has honed my ability to troubleshoot issues, implement innovative solutions, and continuously learn and adapt to new technologies. I consistently adhere to best practices in web development and accessibility standards, ensuring that my work is of the highest quality.</li>                       
-                        </ul>
-                    </div>
-                    </div>
-                </div>
+      </div>
+    </div>
+    <!--- -----------about-------------- --->
+    <div id="about">
+      <div id="container">
+        <div class="row">
+          <div class="about-col-1">
+            <img src="file/m.png" loading="eager" />
+          </div>
+          <div class="about-col-2">
+            <h2 class="sub-title">About Me</h2>
+            <p>
+                I'm <strong>Precious Kelvin</strong>, a Front-End Developer, and I specialize in creating user-friendly, visually appealing web interfaces using  
+                <span style="color: #e34c26;">HTML</span>, 
+                <span style="color: #264de4;">CSS</span>, 
+                <span style="color: #f7df1e;">JavaScript</span>, and Frameworks like 
+                <span style="color: #0070f3;">NextJS</span>, 
+                <span style="color: #0769ad;">JQuery</span>, 
+                <span style="color: #61dafb;">React</span>, 
+                <span style="color: #4f5d95;">Php</span>, 
+                <span style="color: #cf649a;">SASS</span>, 
+                <span style="color: #7952b3;">Bootstrap</span>, and 
+                <span style="color: #43853d;">Node.js</span>. I focus on building responsive, high-performance websites that prioritize usability and aesthetics. Passionate about staying current with industry trends, I aim to bridge the gap between design and technology, ensuring every project looks great and functions flawlessly.
+              </p>              
+            <div class="tab-titles">
+              <p class="tab-links active-link" onclick="opentab('skills')">
+                Skills
+              </p>
+              <p class="tab-links" onclick="opentab('education')">Education</p>
+              <p class="tab-links" onclick="opentab('experience')">
+                Experience
+              </p>
             </div>
-        </div>
-        <!-- ----------------services---------------- -->
-        <div id="services">
-            <div class="container">
-                <h2 class="sub-title">My Services</h2>
-                <div class="services-list">
-                 <div>
-                    <i class="fa-solid fa-code"></i>
-                    <h2>Responsive Web Design</h2>
-                    <p>Build fast, user-friendly, and responsive websites that work seamlessly across various devices and browsers. I can design and develop websites using HTML, CSS, JavaScript, and frameworks like React, JQuery, Node.js, e.t.c</p>
-                     <!---- <a href="#">Learn more</a>---->
-                 </div>
-                 <div>
-                    <i class="fa-solid fa-pen-nib"></i>
-                    <h2>Web Application Developer</h2>
-                    <p>Develop robust and scalable web applications using modern front-end technologies. I can build single-page applications, progressive web apps, and enterprise-level applications that meet your business needs.</p>
-                    <!---- <a href="#">Learn more</a>---->
-                 </div>
-                 <div>
-                    <i class="fa-solid fa-bolt-lightning"></i>
-                    <h2>Front-End Optimization and Audit</h2>
-                    <p>Optimize your website's performance, speed, and user experience. I can conduct a thorough front-end audit, identify bottlenecks, and implement improvements to boost your website's loading speed, search engine ranking, and overall performance.</p>
-                   <!---- <a href="#">Learn more</a>---->
-                 </div>
-                </div>
+            <div class="tab-contents active-tab" id="skills">
+              <ul>
+                <li>
+                  <span>Proficient in HTML5, Tailwind (CSS3), JS, JQuery, React and NextJS</span
+                  ><br />I build responsive and interactive web pages.
+                </li>
+                <li>
+                  <span>Skilled in React and Node.js</span><br />
+                  I create high-performance web applications
+                </li>
+                <li>
+                  <span>Expert in Responsive Design</span><br />I ensure
+                  seamless user experiences across all devices.
+                </li>
+              </ul>
             </div>
-        </div>
-        <!-- ------------portfolio-------------- -->
-         <div id="portfolio">
-            <div class="container">
-                <h2 class="sub-title">My Work</h2>
-                <div class="work-list">
-                    <div class="work">
-                        <img src="file/3.png" loading="eager">
-                        <div class="layer">
-                            <h3>Image Generator</h3>
-                            <p>This web-app can transform your ideas into stunning images in seconds. Try this easy-to-use image generator now.</p>
-                            <a href="https://pix-search-io.vercel.app/"><i class="fa-solid fa-up-right-from-square"></i></a>
-                        </div>
-                    </div>
-                    <div class="work">
-                        <img src="file/1.png" loading="eager">
-                        <div class="layer">
-                            <h3>Marie Design</h3>
-                            <p>Discover custom-tailored fashion at Marie Design, where elegance meets creativity, quality, styles and elegance in every stitch.</p>
-                            <a href="https://marie-design-io.vercel.app/"><i class="fa-solid fa-up-right-from-square"></i></a>
-                        </div>
-                    </div>
-                    <div class="work">
-                        <img src="file/2.png" loading="eager">
-                        <div class="layer">
-                            <h3>QRC Generator</h3>
-                            <p>Generate your own custom QR codes with this easy-to-use QR code generator. Perfect for sharing links, contact info, and more!</p>
-                            <a href="https://qrc-generator.vercel.app/"><i class="fa-solid fa-up-right-from-square"></i></a>    
-                        </div>
-                    </div>
-                </div>
-                <a href="https://github.com/KelvinCode1234" class="btn4">SEE MORE ...</a>
+            <div class="tab-contents" id="education">
+              <ul>
+                <li>
+                  <span>Currently</span><br />I am holding certification as a
+                  Responsive Web Developer, Data Structures and Algorithm (Beta) having successfully completed in
+                  designing and developing web interfaces & interactions that
+                  adapt seamlessly across various devices and screen sizes.
+                </li>
+                <li>
+                  <span>May, 2024</span><br />
+                  I engaged in learning through FreeCodeCamp for several months.
+                </li>
+                <li>
+                  <span>April, 2024</span><br />
+                  I dedicated few weeks to learning through Mimo Code.
+                </li>
+              </ul>
             </div>
-         </div>
-         <!-- --------contact----- -->
-          <div id="contact">
-            <div class="container">
-                <div class="row">
-                    <div class="container-left">
-                          <h2 class="sub-title">Get in Touch</h2>
-                          <p><i class="fa-solid fa-envelope"></i>precykelly345@gmail.com</p>
-                          <p><i class="fa-solid fa-square-phone"></i>+234 805 183 9464</p>
-                          <div class="social-icons">
-                            <a href="https://www.instagram.com/presh.code.io?igsh=d3dyMXhieGZwd291"><i class="fa-brands fa-instagram"></i></a>
-                            <a href="https://x.com/Kellypr74147323?t=HKDe7kLUcI0Z0lAbKdQT4w&s=09"><i class="fa-brands fa-twitter"></i></a>
-                            <a href="https://wa.me/+2348051839464"><i class="fa-brands fa-whatsapp"></i></a>
-                          </div>
-                          <a href="file/my-cv (2).pdf" download class="btn btn2 btn3">Download CV</a>
-                    </div>
-                    <div class="container-right">
-                        <form method="POST" id="form">
-                            
-                            <input type="hidden" name="access_key" value="a7d50f34-c4ae-4234-ae18-266f69961a3b">
-
-                            <input type="text" name="name" placeholder="Full Name" required>
-                            <input type="email" name="email" placeholder="Your Email" required>
-                            <textarea name="Messsage"rows="15" placeholder="Your Messsage..." required></textarea>
-
-                            <button type="submit" class="btn btn2">SUBMIT</button>
-  
-                            <div id="result"></div>
-
-                        </form>
-                    </div>
-                </div>
-            </div>
-            <div class="copyright">
-                <p>Copyright <i class="fa-regular fa-copyright"></i> 2024 | All Right Reserved</p>
+            <div class="tab-contents" id="experience">
+              <ul>
+                <li>
+                  <span>Experience</span><br />As a Software Developer, I have
+                  hands-on experience in creating and maintaining dynamic and
+                  responsive websites.
+                </li>
+                <li>
+                  <span>Web Development</span><br />I have translated design
+                  mockups into functional web pages using HTML, CSS, and
+                  JavaScript, and worked extensively with frameworks like React,
+                  Bootstrap, JQuery and Node.js to build interactive
+                  applications.
+                </li>
+                <li>
+                  <span>Projects</span><br />My projects include developing a
+                  React Web-Apps, LiveCode Editor, PixSearch Web,
+                  Fashion-Designer Website, Quiz Web-App, PixBot,
+                  click the <strong>"See More"</strong> Button to view more of my new
+                  project. Each of these projects has been optimized for
+                  cross-browser compatibility and performance, ensuring a
+                  seamless user experience across different devices and screen
+                  sizes.
+                </li>
+                <li>
+                  <span>Skills and Best Practices</span><br />This experience
+                  has honed my ability to troubleshoot issues, implement
+                  innovative solutions, and continuously learn and adapt to new
+                  technologies. I consistently adhere to best practices in web
+                  development and accessibility standards, ensuring that my work
+                  is of the highest quality.
+                </li>
+              </ul>
             </div>
           </div>
-            <script>
+        </div>
+      </div>
+    </div>
+    <!-- ----------------services---------------- -->
+    <div id="services">
+      <div class="container">
+        <h2 class="sub-title">My Services</h2>
+        <div class="services-list">
+          <div>
+            <i class="fa-solid fa-code"></i>
+            <h2>Responsive Web Design</h2>
+            <p>
+              Build fast, user-friendly, and responsive websites that work
+              seamlessly across various devices and browsers. I can design and
+              develop websites using HTML, CSS, JavaScript, and frameworks like
+              ReactJS, NextJS, PHP, JQuery, Node.js, e.t.c
+            </p>
+            <!---- <a href="#">Learn more</a>---->
+          </div>
+          <div>
+            <i class="fa-solid fa-pen-nib"></i>
+            <h2>Web Application Developer</h2>
+            <p>
+              Develop robust and scalable web applications using modern
+              front-end technologies. I can build single-page applications,
+              progressive web apps, and enterprise-level applications that meet
+              your business needs.
+            </p>
+            <!---- <a href="#">Learn more</a>---->
+          </div>
+          <div>
+            <i class="fa-solid fa-bolt-lightning"></i>
+            <h2>Front-End Optimization and Audit</h2>
+            <p>
+              Optimize your website's performance, speed, and user experience. I
+              can conduct a thorough front-end audit, identify bottlenecks, and
+              implement improvements to boost your website's loading speed,
+              search engine ranking, and overall performance.
+            </p>
+            <!---- <a href="#">Learn more</a>---->
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- ------------portfolio-------------- -->
+    <div id="portfolio">
+      <div class="container">
+        <h2 class="sub-title">My Work</h2>
+        <div class="work-list">
+          <div class="work">
+            <img src="file/3.png" loading="eager" />
+            <div class="layer">
+              <h3>Image Generator</h3>
+              <p>
+                This web-app can transform your ideas into stunning images in
+                seconds. Try this easy-to-use image generator now.
+              </p>
+              <a href="https://pix-search-io.vercel.app/"><i class="fa-solid fa-up-right-from-square"></i></a>
+            </div>
+          </div>
+          <div class="work">
+            <img src="file/1.png" loading="eager" />
+            <div class="layer">
+              <h3>Marie Design</h3>
+              <p>
+                Discover custom-tailored fashion at Marie Design, where elegance
+                meets creativity, quality, styles and elegance in every stitch.
+              </p>
+              <a href="https://marie-design-io.vercel.app/"><i class="fa-solid fa-up-right-from-square"></i></a>
+            </div>
+          </div>
+          <div class="work">
+            <img src="file/2.png" loading="eager" />
+            <div class="layer">
+              <h3>QRC Generator</h3>
+              <p>
+                Generate your own custom QR codes with this easy-to-use QR code
+                generator. Perfect for sharing links, contact info, and more!
+              </p>
+              <a href="https://qrc-generator.vercel.app/"
+                ><i class="fa-solid fa-up-right-from-square"></i
+              ></a>
+            </div>
+          </div>
+          <div class="work">
+            <img src="file/4.png" loading="eager" />
+            <div class="layer">
+              <h3>Story Hub</h3>
+              <p>A storytelling experience like no other. Discover stories, explore new words, and ignite your imagination with Storyhub.</p>
+              <a href="https://story-hub-gules.vercel.app/"><i class="fa-solid fa-up-right-from-square"></i></a>
+            </div>
+          </div>
+        </div>
+        <a href="https://github.com/KelvinCode1234" class="btn4"
+          >SEE MORE ...</a
+        >
+      </div>
+    </div>
+    <!-- --------contact----- -->
+    <div id="contact">
+      <div class="container">
+        <div class="row">
+          <div class="container-left">
+            <h2 class="sub-title">Get in Touch</h2>
+            <p><i class="fa-solid fa-envelope"></i>precykelly345@gmail.com</p>
+            <p><i class="fa-solid fa-square-phone"></i>+234 805 183 9464</p>
+            <div class="social-icons">
+              <a
+                href="https://www.instagram.com/presh.code.io?igsh=d3dyMXhieGZwd291"
+                ><i class="fa-brands fa-instagram"></i
+              ></a>
+              <a
+                href="https://x.com/Kellypr74147323?t=HKDe7kLUcI0Z0lAbKdQT4w&s=09"
+                ><i class="fa-brands fa-twitter"></i
+              ></a>
+              <a href="https://wa.me/+2348051839464"
+                ><i class="fa-brands fa-whatsapp"></i
+              ></a>
+            </div>
+            <a href="file/My Resume (2).pdf" download class="btn btn2 btn3"
+              >Download CV</a
+            >
+          </div>
+          <div class="container-right">
+            <form method="POST" id="form">
+              <input
+                type="hidden"
+                name="access_key"
+                value="a7d50f34-c4ae-4234-ae18-266f69961a3b"
+              />
 
-                var tablinks = document.getElementsByClassName("tab-links");
-                var tabcontents= document.getElementsByClassName("tab-contents");
+              <input type="text" name="name" placeholder="Full Name" required />
+              <input
+                type="email"
+                name="email"
+                placeholder="Your Email"
+                required
+              />
+              <textarea
+                name="Messsage"
+                rows="15"
+                placeholder="Your Messsage..."
+                required
+              ></textarea>
 
+              <button type="submit" class="btn btn2">SUBMIT</button>
 
-                function opentab(tabname){
-                    for(tablink of tablinks){
-                        tablink.classList.remove("active-link");
-                    }
-                    for(tabcontent of tabcontents){
-                        tabcontent.classList.remove("active-tab");
-                    }
-                    event.currentTarget.classList.add("active-link");
-                    document.getElementById(tabname).classList.add("active-tab");
-                    }
+              <div id="result"></div>
+            </form>
+          </div>
+        </div>
+      </div>
+      <div class="copyright">
+        <p>
+          Copyright <i class="fa-regular fa-copyright"></i> 2024 | All Right
+          Reserved
+        </p>
+      </div>
+    </div>
+    <script>
+      var tablinks = document.getElementsByClassName("tab-links");
+      var tabcontents = document.getElementsByClassName("tab-contents");
 
-            </script>
+      function opentab(tabname) {
+        for (tablink of tablinks) {
+          tablink.classList.remove("active-link");
+        }
+        for (tabcontent of tabcontents) {
+          tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+      }
+    </script>
 
-            <script>
-        
-                var sidemenu = document.getElementById("sidemenu");
+    <script>
+      var sidemenu = document.getElementById("sidemenu");
 
-                function openmenu(){
-                    sidemenu.classList.add("open");
-                    sidemenu.style.right = "0";
-                }
+      function openmenu() {
+        sidemenu.classList.add("open");
+        sidemenu.style.right = "0";
+      }
 
-                function closemenu(){
-                    sidemenu.classList.remove("open");
-                    sidemenu.style.right = "-600px";
-                }
+      function closemenu() {
+        sidemenu.classList.remove("open");
+        sidemenu.style.right = "-600px";
+      }
 
-                               
-                document.addEventListener("touchstart", function(event) {
-                    
-                    if (sidemenu.classList.contains("open")) {
-                        
-                        if (!event.target.closest("#sidemenu, #sidemenu *")) {
-                            
-                            closemenu();
-                        }
-                    }
-                });
+      document.addEventListener("touchstart", function (event) {
+        if (sidemenu.classList.contains("open")) {
+          if (!event.target.closest("#sidemenu, #sidemenu *")) {
+            closemenu();
+          }
+        }
+      });
 
+      document.addEventListener("click", function (event) {
+        if (sidemenu.classList.contains("open")) {
+          if (event.target.closest("#sidemenu li")) {
+            closemenu();
+          }
+        }
+      });
+    </script>
+    <script src="file.js"></script>
+    <script>
+      $(document).ready(function () {
+        $("h2").fadeIn(1800);
 
-                document.addEventListener("click", function(event) {
-                    
-                    if (sidemenu.classList.contains("open")) {
-                        
-                        if (event.target.closest("#sidemenu li")) {
-                            
-                            closemenu();
-                        }
-                    }
-                });
-         
-            </script>
-            <script src="file.js"></script>
-            <script>
-                $(document).ready(function() {
-                    $("h2").fadeIn(1800);
-                    
-                function moveElement() {
-                    $(".logo").addClass("animate__animated animate__shakeX");
-                    
-                    setTimeout(function() {
-                        $(".logo").removeClass("animate__animated animate__shakeX");
-                    }, 800); 
-                }
-                    
-                    setInterval(moveElement, 4000);
+        function moveElement() {
+          $(".logo").addClass("animate__animated animate__flipInY");
 
-                    
+          setTimeout(function () {
+            $(".logo").removeClass("animate__animated animate__flipInY");
+          }, 800);
+        }
 
-                function shakeElement() {
-                    $(".btn3").addClass("animate__animated animate__shakeX");
-                    
-                    setTimeout(function() {
-                        $(".btn3").removeClass("animate__animated animate__shakeX");
-                    }, 800); 
-                }
-                    
-                    setInterval(shakeElement, 4000); 
+        setInterval(moveElement, 4000);
 
-                    
-                });
+        function shakeElement() {
+          $(".btn3").addClass("animate__animated animate__shakeX");
 
-            </script>
-    </body>
+          setTimeout(function () {
+            $(".btn3").removeClass("animate__animated animate__shakeX");
+          }, 800);
+        }
+
+        setInterval(shakeElement, 4000);
+      });
+    </script>
+  </body>
 </html>
