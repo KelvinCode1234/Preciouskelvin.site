@@ -51,6 +51,18 @@ p {
     font-weight: 400;
 }
 
+.badge-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px; /* Spacing between badges */
+    margin-top: 10px;
+  }
+
+  .badge-container img {
+    height: 25px; /* Ensures all badges are uniform */
+    width: auto;
+  }
+
 .title {
     font-family: "Permanent Marker", cursive;
     font-size: 30px;
