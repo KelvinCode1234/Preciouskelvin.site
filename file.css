@@ -54,13 +54,19 @@ p {
 .badge-container {
     display: flex;
     flex-wrap: wrap;
-    gap: 8px; /* Spacing between badges */
-    margin-top: 10px;
-  }
+    justify-content: center;
+    gap: 10px; /* Adjusts spacing between badges */
+    margin: 15px 0;
+ }
 
-  .badge-container img {
+ .badge-container img {
     height: 25px; /* Ensures all badges are uniform */
     width: auto;
+    transition: transform 0.3s ease-in-out;
+  }
+
+  .badge-container img:hover {
+    transform: scale(1.1);
   }
 
 .title {
