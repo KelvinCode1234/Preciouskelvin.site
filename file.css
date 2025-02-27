@@ -515,6 +515,7 @@ button:hover {
 .bottom-nav li a {
     text-decoration: none;
     color: #fff;
+    font-family: 'Poppins', sans-serif;
     font-size: 14px;
 }
 
@@ -524,6 +525,7 @@ button:hover {
     width: 32px;
     height: 32px;
     display: flex;
+    background-color: none;
     align-items: center;
     justify-content: center;
     border-radius: 50%;
@@ -532,9 +534,8 @@ button:hover {
 
 /* Footer Bottom Section */
 .footer-bottom {
-    border-top: 1px solid #ddd;
+    border-top: 1px solid #333;
     padding-top: 10px;
-    color: #333;
 }
 
 .footer-bottom p {
