@@ -534,11 +534,10 @@ button:hover {
 .social-icons li:nth-child(2) a { background: #1DA1F2; } /* Twitter */
 .social-icons li:nth-child(3) a { background: #E4405F; } /* Instagram */
 .social-icons li:nth-child(4) a { background: #1769FF; } /* Behance */
-.social-icons li:nth-child(5) a { background: #EA4C89; } /* Dribbble */
-.social-icons li:nth-child(6) a { background: #FF0000; } /* YouTube */
 
 .social-icons li a:hover {
     opacity: 0.8;
+    color: none;
 }
 
 /* Footer Bottom Section */
@@ -549,7 +548,7 @@ button:hover {
 
 .footer-bottom p {
     font-size: 12px;
-    color: #666;
+    color: #fff;
     margin-top: 5px;
 }
 
