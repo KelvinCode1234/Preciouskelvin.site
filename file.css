@@ -536,7 +536,6 @@ button:hover {
 .social-icons li:nth-child(4) a { background: #1769FF; } 
 
 .social-icons li a:hover {
-    opacity: 0.8;
     color: none;
     text-decoration: none;
 }
