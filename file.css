@@ -520,9 +520,12 @@ button:hover {
     font-size: 14px;
 }
 
+.bottom-nav li a {
+    margin-bottom: 20px;
+}
+
 /* Social Icons */
 .social-icons li a {
-    font-size: 18px;
     font-size: 30px;
     display: flex;
     background-color: none;
