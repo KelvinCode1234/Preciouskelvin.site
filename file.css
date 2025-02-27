@@ -481,6 +481,7 @@ button:hover {
 
 .footer {
     background: #262626;
+    font-family: 'Poppins', sans-serif;
     padding: 20px 0;
     text-align: center;
     border-top: 1px solid #ddd;
@@ -531,15 +532,6 @@ button:hover {
     text-decoration: none;
 }
 
-.social-icons li a {
-    color: #ababab;
-}
-
-.social-icons li a:hover {
-    color: #37AFE1;
-    text-decoration: none;
-}
-
 /* Footer Bottom Section */
 .footer-bottom {
     border-top: 1px solid #ddd;
@@ -549,7 +541,7 @@ button:hover {
 .footer-bottom p {
     font-size: 12px;
     color: #fff;
-    margin-top: 5px;
+    margin-top: 20px;
 }
 
 /* Responsive Design */
