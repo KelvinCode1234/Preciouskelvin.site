@@ -531,12 +531,12 @@ button:hover {
     text-decoration: none;
 }
 
-.social-icons li:nth-child(2) a { background: #1DA1F2; } 
-.social-icons li:nth-child(3) a { background: #E4405F; }
-.social-icons li:nth-child(4) a { background: #1769FF; } 
+.social-icons li a {
+    color: #ababab;
+}
 
 .social-icons li a:hover {
-    color: none;
+    color: #37AFE1;
     text-decoration: none;
 }
 
