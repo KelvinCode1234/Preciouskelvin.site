@@ -478,20 +478,13 @@ select {
 button:hover {
    color: #080808;
 }
-.copyright {
-   width: 100%;
-   text-align: center;
-   padding: 25px 0;
-   background: #262626;
-   font-weight: 300;
-   margin-top: 20px;
-}
 
 .footer {
     background: #262626;
     padding: 20px 0;
     text-align: center;
     border-top: 1px solid #ddd;
+    margin-top: 20px;
 }
 
 .container {
@@ -507,11 +500,6 @@ button:hover {
     align-items: center;
     flex-wrap: wrap;
     padding-bottom: 10px;
-}
-
-.logo {
-    font-size: 20px;
-    font-weight: bold;
 }
 
 /* Footer Navigation */
