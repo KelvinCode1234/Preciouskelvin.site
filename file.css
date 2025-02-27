@@ -523,13 +523,11 @@ button:hover {
 /* Social Icons */
 .social-icons li a {
     font-size: 18px;
-    width: 32px;
-    height: 32px;
+    font-size: 30px;
     display: flex;
     background-color: none;
     align-items: center;
     justify-content: center;
-    border-radius: 50%;
     text-decoration: none;
 }
 
