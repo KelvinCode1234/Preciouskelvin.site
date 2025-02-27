@@ -513,7 +513,7 @@ button:hover {
 .footer-nav li a, 
 .bottom-nav li a {
     text-decoration: none;
-    color: #333;
+    color: #fff;
     font-size: 14px;
 }
 
@@ -531,13 +531,14 @@ button:hover {
     text-decoration: none;
 }
 
-.social-icons li:nth-child(2) a { background: #1DA1F2; } /* Twitter */
-.social-icons li:nth-child(3) a { background: #E4405F; } /* Instagram */
-.social-icons li:nth-child(4) a { background: #1769FF; } /* Behance */
+.social-icons li:nth-child(2) a { background: #1DA1F2; } 
+.social-icons li:nth-child(3) a { background: #E4405F; }
+.social-icons li:nth-child(4) a { background: #1769FF; } 
 
 .social-icons li a:hover {
     opacity: 0.8;
     color: none;
+    text-decoration: none;
 }
 
 /* Footer Bottom Section */
