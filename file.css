@@ -525,8 +525,7 @@ button:hover {
 hr {
     color: #ababab;
     width: 90%
-    margin-top: 15px;
-    margin-bottom: 15px;
+    margin: 15px auto;
 }
 
 .icons li a {
@@ -560,6 +559,7 @@ hr {
     color: #fff;
     margin-top: 15px;
     font-family: 'Poppins', sans-serif;
+    margin-top: 20px;
     margin-bottom: 20px;
 }
 
