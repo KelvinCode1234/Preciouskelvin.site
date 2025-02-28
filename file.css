@@ -522,6 +522,13 @@ button:hover {
     margin-bottom: 20px;
 }
 
+hr {
+    color: #ababab;
+    width: 90%
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
 .icons li a {
     font-size: 30px;
     display: flex;
