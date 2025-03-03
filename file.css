@@ -452,6 +452,7 @@ form input, form textarea {
     color: white;
     font-size: 15px;
     border-radius: 6px;
+    resize: none; 
 }
 
 
@@ -459,7 +460,7 @@ form input:focus, form textarea:focus{
     border: 4px solid #37AFE1;
 }
 
-.container-right textarea { 
+.container-right form textarea { 
   resize: none; 
 }
 
