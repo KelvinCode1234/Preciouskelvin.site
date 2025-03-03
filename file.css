@@ -459,8 +459,8 @@ form input:focus, form textarea:focus{
     border: 4px solid #37AFE1;
 }
 
-form textarea {
-    resize: none;
+.container-right textarea { 
+  resize: none; 
 }
 
 form .btn2 {
