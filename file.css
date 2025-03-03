@@ -457,7 +457,11 @@ form input, form textarea {
 
 form input:focus, form textarea:focus{
     border: 4px solid #37AFE1;
-} 
+}
+
+form textarea {
+    resize: none;
+}
 
 form .btn2 {
     padding: 14px 60px;
