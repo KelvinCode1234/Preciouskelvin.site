@@ -387,6 +387,7 @@ p em {
     text-decoration: none;
     color: #fff;
     background-color: #37AFE1;
+    font-family: 'Poppins', sans-serif;
 }
 
 .btn4:hover {
@@ -570,11 +571,11 @@ hr {
 }
 
 .btn4.zoom-in {
-    transform: scale(1.1); /* Adjust the scale for zoom effect */
+    transform: scale(1.1); 
 }
 
 .btn4.zoom-out {
-    transform: scale(1); /* Original size */
+    transform: scale(1); 
 }
 
 
