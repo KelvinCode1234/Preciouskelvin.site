@@ -53,22 +53,37 @@ p {
 }
 
 .badge-container {
+    overflow: hidden;
+    width: 100%;
+    padding: 10px 0;
+    position: relative;
+    background: #000;
+}
+
+.badge-slider {
     display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 10px; /* Adjusts spacing between badges */
-    margin: 15px 0;
- }
+    width: max-content;
+    animation: slide-left 20s linear infinite;
+}
 
- .badge-container img {
-    height: 25px; /* Ensures all badges are uniform */
-    width: auto;
+.badge-slider img {
+    height: 40px;
+    margin: 0 15px;
     transition: transform 0.3s ease-in-out;
-  }
+}
 
-  .badge-container img:hover {
-    transform: scale(1.1);
-  }
+.badge-slider img:hover {
+    transform: scale(1.2);
+}
+
+@keyframes slide-left {
+    from {
+        transform: translateX(10);
+    }
+    to {
+        transform: translateX(-50%);
+    }
+}
 
 .title {
     font-family: "Permanent Marker", cursive;
@@ -648,60 +663,22 @@ nav .fa-solid.fa-xmark, .fa-solid.fa-bars {
     }
 
 }
-/* badge container */
-.badge-container {
-    overflow: hidden;
-    width: 100%;
-    padding: 10px 0;
-    position: relative;
-    background: #f8f8f8; /* Light background */
-}
 
-.badge-slider {
-    display: flex;
-    width: max-content;
-    animation: slide-left 20s linear infinite; /* Smooth infinite scrolling */
-}
-
-.badge-slider img {
-    height: 40px; /* Adjust size */
-    margin: 0 15px; /* Space between images */
-    transition: transform 0.3s ease-in-out;
-}
-
-.badge-slider img:hover {
-    transform: scale(1.1); /* Slight hover effect */
-}
-
-/* Animation */
-@keyframes slide-left {
-    from {
-        transform: translateX(0);
-    }
-    to {
-        transform: translateX(-50%);
-    }
-}
-
-/* Responsive Adjustments */
 @media (max-width: 768px) {
     .badge-slider img {
-        height: 30px; /* Smaller on mobile */
+        height: 30px; 
         margin: 0 10px;
     }
 
     @keyframes slide-left {
         from {
-            transform: translateX(0);
+            transform: translateX(10);
         }
         to {
             transform: translateX(-100%);
         }
     }
 }
-
-
-
 
 
 /*--for screen 600px and below-----*/
