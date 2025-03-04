@@ -56,13 +56,13 @@ p {
     overflow: hidden;
     width: 100%;
     padding: 10px 0;
-    position: relative;
+    position: fixed;
     background: #000;
 }
 
 .badge-slider {
     display: flex;
-    width: max-content;
+    width: 100%;
     animation: slide-left 20s linear infinite;
 }
 
