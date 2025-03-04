@@ -52,41 +52,38 @@ p {
 }
 
 .badge-container {
-  width: 50%;
+  width: 100%;
   overflow: hidden;
-  position: relative;
   padding: 10px 0;
-  display: flex;
-  align-items: center;
-  background-color: #000;
+  position: relative;
+  background: transparent;
 }
 
 .badge-slider {
   display: flex;
   gap: 15px;
   width: max-content;
-  white-space: nowrap;
-  animation: slideLeft 20s linear infinite;
+  animation: scrollBadges 20s linear infinite;
 }
 
-.badge-slider img {
-  height: 30px;
-  padding: 5px 10px;
-  border-radius: 5px;
-  transition: transform 0.4s ease-in-out;
-}
-
-.badge-slider img:hover {
-    transform: scale(1.2);
-}
-
-@keyframes slideLeft {
+@keyframes scrollBadges {
   from {
     transform: translateX(0);
   }
   to {
-    transform: translateX(-50%);
+    transform: translateX(-100%);
   }
+}
+
+.badge-slider img {
+    height: 30px;
+    flex-shrink: 0;
+}
+
+.badge-slider::after {
+  content: "";
+  display: flex;
+  gap: 15px;
 }
 
 .title {
