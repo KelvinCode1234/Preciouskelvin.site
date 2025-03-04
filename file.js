@@ -77,6 +77,14 @@ document.querySelectorAll("a[href^='#']").forEach(anchor => {
     anchor.addEventListener("click", function (e) {
         e.preventDefault();
         let target = this.getAttribute("href");
-        smoothScroll(target, 2000); // 2000ms (2 seconds) for slower scroll
+        smoothScroll(target, 2000);
     });
 });
+
+
+document.addEventListener("DOMContentLoaded", () => {
+    const slider = document.querySelector(".badge-slider");
+    slider.innerHTML += slider.innerHTML;
+});
+
+
