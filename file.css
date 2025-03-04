@@ -54,37 +54,6 @@ p {
     width: 100%;
 }
 
-.badge-container {
-  width: 10%;
-  overflow: hidden;
-  padding: 10px 0;
-  position: relative;
-  background: transparent;
-  border: 1px solid #fff;
-  margin: 8px auto:
-  display: block;
-}
-
-.badge-slider {
-  display: flex;
-  gap: 15px;
-  width: 50%;
-  animation: scrollBadges 20s linear infinite;
-}
-
-@keyframes scrollBadges {
-    from {
-        transform: translateX(0);
-    }
-    to {
-        transform: translateX(-50%);
-    }
-}
-
-.badge-slider img {
-    height: 25px;
-    flex-shrink: 0;
-}
 
 .title {
     font-family: "Permanent Marker", cursive;
