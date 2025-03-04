@@ -82,9 +82,3 @@ document.querySelectorAll("a[href^='#']").forEach(anchor => {
 });
 
 
-document.addEventListener("DOMContentLoaded", () => {
-    const slider = document.querySelector(".badge-slider");
-    slider.innerHTML += slider.innerHTML;
-});
-
-
