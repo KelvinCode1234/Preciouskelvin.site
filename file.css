@@ -55,20 +55,20 @@ p {
 }
 
 .badge-container {
-  width: 30%;
+  width: 10%;
   overflow: hidden;
   padding: 10px 0;
   position: relative;
   background: transparent;
   border: 1px solid #fff;
-  margin: 0 auto:
-  display: flex;
+  margin: 8px auto:
+  display: block;
 }
 
 .badge-slider {
   display: flex;
   gap: 15px;
-  width: 100%;
+  width: 50%;
   animation: scrollBadges 20s linear infinite;
 }
 
