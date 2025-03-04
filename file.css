@@ -67,23 +67,17 @@ p {
 }
 
 @keyframes scrollBadges {
-  from {
-    transform: translateX(0);
-  }
-  to {
-    transform: translateX(-100%);
-  }
+    from {
+        transform: translateX(0);
+    }
+    to {
+        transform: translateX(-50%);
+    }
 }
 
 .badge-slider img {
     height: 30px;
     flex-shrink: 0;
-}
-
-.badge-slider::after {
-  content: "";
-  display: flex;
-  gap: 15px;
 }
 
 .title {
