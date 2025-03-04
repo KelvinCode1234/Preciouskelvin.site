@@ -52,7 +52,7 @@ p {
 }
 
 .badge-container {
-  width: 20%;
+  width: 100%;
   overflow: hidden;
   padding: 10px 0;
   position: relative;
@@ -62,7 +62,7 @@ p {
 .badge-slider {
   display: flex;
   gap: 15px;
-  width: max-content;
+  width: 100%;
   animation: scrollBadges 20s linear infinite;
 }
 
