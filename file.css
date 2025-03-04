@@ -230,7 +230,7 @@ p em {
 
 /* ---------------services-------------- */
 #services {
-    padding: 30px -20px;
+    padding: 30px 0;
     
 }
 .services-list {
@@ -430,7 +430,7 @@ p em {
 }
 form input, form textarea {
     width: 100%;
-    border: 0.9px solid #37AFE1;
+    border: 1px solid #37AFE1;
     outline: none;
     background: #262626;
     padding: 15px;
