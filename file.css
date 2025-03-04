@@ -8,8 +8,10 @@
 }
 
 body {
-    background:#080808;
+    background: #000000;
     color: #fff;
+    background-image: radial-gradient(#ffffff33 1px, #00091d 1px);
+    background-size: 20px 20px;
 }
 
 #header {
@@ -257,6 +259,7 @@ p em {
 /* ---------------services-------------- */
 #services {
     padding: 30px 0;
+    
 }
 .services-list {
     display: grid;
@@ -282,7 +285,8 @@ p em {
     margin-bottom: 15px;
 }
 .services-list div p {
-    font-size: px;
+    font-size: 15px;
+    width: 100%;
 }
 
 .services-list div a {
@@ -769,9 +773,13 @@ nav .fa-solid.fa-xmark, .fa-solid.fa-bars {
         margin-right: 20px;
     }
 
+    #services {
+        padding-left: -10px;
+    }
+        
     .services-list {
         display: grid;
-        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+        grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
         grid-gap: 30px;
     }
         
