@@ -53,6 +53,7 @@ p {
 }
 
 .badge-container {
+    overflow: hidden;
     width: 100%;
     padding: 10px 15px;
     position: fixed;
