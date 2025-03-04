@@ -263,7 +263,6 @@ p em {
     grid-template-columns: repeat(auto-fit, minmax(290px, 1fr));
     grid-gap: 40px;
     margin-top: 45px;
-
 }
 .services-list div {
     background: #252424;
@@ -769,6 +768,13 @@ nav .fa-solid.fa-xmark, .fa-solid.fa-bars {
         font-size: 16px;
         margin-right: 20px;
     }
+
+    .services-list {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+        grid-gap: 30px;
+    }
+        
     .container-left, .container-right {
         flex-basis: 100%;
     }
