@@ -51,7 +51,7 @@ p {
     width: 100%;
 }
 
-.badge-container {
+badge-container {
   width: 100%;
   overflow: hidden;
   padding: 10px 0;
