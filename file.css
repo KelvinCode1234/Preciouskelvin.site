@@ -835,18 +835,3 @@ nav .fa-solid.fa-xmark, .fa-solid.fa-bars {
     }
 }
 
-@media (max-width: 768px) {
-    .badge-slider {
-        flex-wrap: nowrap;
-        overflow-x: auto;
-        scrollbar-width: thin;
-        scrollbar-color: #999 transparent;
-        scroll-snap-type: x mandatory;
-        padding-bottom: 10px;
-    }
-
-    .badge-slider img {
-        width: 25px;
-        scroll-snap-align: center;
-    }
-}
