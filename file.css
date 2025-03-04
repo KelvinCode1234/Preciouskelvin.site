@@ -51,7 +51,7 @@ p {
     width: 100%;
 }
 
-.badge-container {
+badge-container {
   width: 100%;
   overflow: hidden;
   padding: 10px 0;
@@ -59,7 +59,7 @@ p {
   background: transparent;
 }
 
-.badge-slider {
+badge-slider {
   display: flex;
   gap: 15px;
   width: 100%;
@@ -75,7 +75,7 @@ p {
     }
 }
 
-.badge-slider img {
+badge-slider img {
     height: 30px;
     flex-shrink: 0;
 }
