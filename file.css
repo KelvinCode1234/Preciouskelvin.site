@@ -430,7 +430,7 @@ p em {
 }
 form input, form textarea {
     width: 100%;
-    border: 0;
+    border: 4px solid #37AFE1;
     outline: none;
     background: #262626;
     padding: 15px;
@@ -765,7 +765,7 @@ nav .fa-solid.fa-xmark, .fa-solid.fa-bars {
     }
 
     #services {
-        padding-left: -16px;
+        padding-left: -18px;
     }
 
     .services-list div p {
