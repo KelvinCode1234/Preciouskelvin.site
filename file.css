@@ -21,11 +21,13 @@ body {
     background-size: cover;
     background-repeat: no-repeat;
 }
+
 h1::first-letter {
     color: #4CC9FE;
     font-size: 40px;
     font-family: 'Times New Roman', Times, serif;
 }
+
 h1 > span {
     color: #4CC9FE;
 }
@@ -39,6 +41,7 @@ nav {
     justify-content: space-between;
     flex-wrap: wrap;
 }
+
 h1 {
     width: 140px;
     font-size: 35px;
@@ -51,15 +54,19 @@ p {
     width: 100%;
 }
 
-badge-container {
+.badge-container {
   width: 100%;
   overflow: hidden;
   padding: 10px 0;
   position: relative;
   background: transparent;
+  border: 1px solid #fff;
+  width: 100%;
+  margin: 0 auto:
+  display: flex;
 }
 
-badge-slider {
+.badge-slider {
   display: flex;
   gap: 15px;
   width: 100%;
@@ -75,8 +82,8 @@ badge-slider {
     }
 }
 
-badge-slider img {
-    height: 30px;
+.badge-slider img {
+    height: 25px;
     flex-shrink: 0;
 }
 
@@ -661,12 +668,6 @@ nav .fa-solid.fa-xmark, .fa-solid.fa-bars {
         flex-basis: 65%;
     }
 
-}
-
-@media (max-width: 768px) {
-    badge-slider img {
-        height: 25px;
-    }
 }
 
 @media screen and (max-width: 700px) {
